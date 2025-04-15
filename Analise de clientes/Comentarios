@@ -1,0 +1,57 @@
+# Análise de Clientes com Pandas e SQL
+
+Este projeto tem como objetivo explorar e analisar o comportamento de clientes com base em dados de vendas. As análises foram feitas utilizando tanto operações com Pandas quanto consultas SQL executadas diretamente no notebook, a partir de um banco SQLite temporário.
+
+---
+
+## Dataset utilizado
+
+O dataset foi obtido do Kaggle:
+[Sales and Customer Data](https://www.kaggle.com/datasets/dataceo/sales-and-customer-data)
+
+Arquivos utilizados:
+- `sales_data.csv`: informações de vendas (produto, quantidade, valor, data, etc.)
+- `customer_data.csv`: informações de clientes (idade, gênero, forma de pagamento)
+
+---
+
+## Objetivos
+
+- Unir os dados de vendas e clientes
+- Calcular métricas de valor e frequência de compra
+- Realizar segmentações por gênero, faixa etária e categoria de produto
+- Utilizar SQL para simular consultas em ambiente de banco de dados
+
+---
+
+## Etapas realizadas
+
+1. **Leitura dos arquivos CSV com Pandas**
+2. **Merge entre os dados de vendas e clientes com base em `customer_id`**
+3. **Criação de banco SQLite em memória com `sqlite3`**
+4. **Execução de diversas consultas SQL**, incluindo:
+   - Total gasto por cliente
+   - Ticket médio por categoria
+   - Formas de pagamento mais usadas
+   - Gasto médio por gênero
+   - Total gasto por faixa etária
+   - Clientes mais frequentes
+
+---
+
+## Ferramentas utilizadas
+
+- Python
+- Pandas
+- SQLite (via `sqlite3`)
+- Jupyter Notebook
+
+---
+
+## Resultado
+
+O projeto entregou insights relevantes sobre comportamento de consumo e permitiu comparar operações com Pandas e SQL em um ambiente unificado. Esse case serve como base para projetos mais robustos envolvendo:
+- Limpeza de dados
+- Consulta com SQL
+- Visualização com gráficos
+
