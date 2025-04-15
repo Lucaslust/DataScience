@@ -1,4 +1,4 @@
-# 📊 Repositório de Estudos em Ciência de Dados
+#  Repositório de Estudos em Ciência de Dados
 
 Este repositório reúne estudos e análises práticas desenvolvidas com ferramentas de ciência de dados como Python, Pandas, Matplotlib, Seaborn, SQL, Power BI e outras.
 
@@ -6,7 +6,7 @@ A ideia é centralizar aqui diferentes projetos de aprendizado como análises de
 
 ---
 
-## 🗂️ Projetos e Casos
+##  Projetos e Casos
 
 | Projeto/Case        | Descrição                                                              |
 |---------------------|------------------------------------------------------------------------|
@@ -17,7 +17,7 @@ A ideia é centralizar aqui diferentes projetos de aprendizado como análises de
 
 ---
 
-## 🧰 Ferramentas utilizadas
+##  Ferramentas utilizadas
 - Python
 - Pandas
 - Matplotlib & Seaborn
@@ -28,5 +28,5 @@ A ideia é centralizar aqui diferentes projetos de aprendizado como análises de
 
 ---
 
-## 🚀 Como usar
+##  Como usar
 1. Clone este repositório:
