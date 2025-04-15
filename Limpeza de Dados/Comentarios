@@ -1,0 +1,70 @@
+# Limpeza de Dados – Cafe Sales
+
+Este projeto tem como objetivo aplicar técnicas de limpeza de dados utilizando Python e a biblioteca Pandas. O dataset foi retirado do Kaggle e contém registros propositalmente sujos relacionados a transações de vendas em uma cafeteria.
+
+---
+
+## Dataset
+
+- Fonte: [Kaggle - Cafe Sales Dirty Data](https://www.kaggle.com/datasets/ahmedmohamed2003/cafe-sales-dirty-data-for-cleaning-training)
+- Formato: CSV
+- Tamanho original: 10.000 registros
+- Nome do arquivo: `dirty_cafe_sales.csv`
+
+---
+
+## Objetivos do projeto
+
+- Identificar e tratar valores ausentes
+- Corrigir tipos de dados incorretos
+- Recalcular colunas com base em outras
+- Eliminar informações irrelevantes ou comprometidas
+- Produzir uma base de dados pronta para análise ou visualização
+
+---
+
+## Passos realizados
+
+1. **Importação de bibliotecas**
+   - Pandas e NumPy para manipulação de dados
+   - KaggleHub para download automatizado do dataset
+
+2. **Leitura e inspeção inicial dos dados**
+   - Visualização com `.head()`, `.info()` e `.isnull().sum()`
+   - Diagnóstico de colunas críticas com dados ausentes
+
+3. **Tratamento de dados ausentes**
+   - `Item`: preenchido com "Desconhecido"
+   - `Quantity` e `Price Per Unit`: convertidos para tipo numérico e preenchidos com a mediana
+   - `Total Spent`: recalculado a partir de `Quantity * Price Per Unit`
+   - `Payment Method`: preenchido com "Não informado"
+   - `Location`: coluna removida por conter mais de 30% de valores ausentes
+   - `Transaction Date`: convertida para tipo datetime e linhas inválidas removidas
+
+4. **Validação final**
+   - Verificação de nulos (todas as colunas com 0 valores ausentes)
+   - Checagem de tipos com `.info()`
+   - Estatísticas descritivas com `.describe()`
+
+---
+
+## Resultado
+
+- Dataset final com 9.540 registros limpos
+- Estrutura padronizada e pronta para uso em visualizações ou análises exploratórias
+- Redução mínima da base original com ganho de consistência e qualidade
+
+---
+
+## Arquivos incluídos
+
+- `limpezaDeDados.ipynb`: notebook completo com todas as etapas
+- `dirty_cafe_sales.csv`: arquivo original baixado automaticamente
+- `cafe_sales_limpo.csv`: versão final tratada (pode ser exportada com `to_csv()`)
+
+---
+
+## Observações
+
+Este projeto serve como exercício prático de limpeza de dados, mas pode ser reaproveitado como base para dashboards, modelos ou visualizações.
+
