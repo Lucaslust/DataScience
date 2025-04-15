@@ -1,0 +1,37 @@
+# Comentário Técnico sobre os Gráficos
+
+Este documento explica o que representa cada gráfico gerado na análise de vendas, sua utilidade e interpretação prática.
+
+---
+
+Gráfico 1 – Total de Vendas por País (Barras)
+
+Este gráfico de barras mostra o total de vendas agregadas por país, ordenadas do maior para o menor.
+
+Interpretação:
+- Os Estados Unidos (USA) concentram disparadamente o maior volume de vendas, indicando seu papel como principal mercado consumidor.
+- Países como Espanha, França e Austrália aparecem como mercados relevantes, mas ainda bem abaixo do volume dos EUA.
+- Há uma longa cauda de países com vendas mais modestas, o que pode indicar oportunidade de expansão ou foco em mercados principais.
+
+Aplicação prática:
+- Ajuda a identificar quais países são mais lucrativos.
+- Pode orientar decisões de marketing e logística, como foco de campanhas, estoques e transporte.
+
+---
+
+Gráfico 2 – Vendas ao Longo do Tempo (Linha)
+
+Este gráfico de linha mostra a soma total de vendas agrupada por mês e ano (série temporal). Cada ponto representa um (Ano, Mês).
+
+Interpretação:
+- É possível observar picos de vendas sazonais, com grandes saltos em certos meses, o que pode indicar períodos como Black Friday, Natal ou ações promocionais específicas.
+- Quedas acentuadas após os picos reforçam a sazonalidade das vendas.
+- A continuidade do gráfico mostra ciclos de recuperação e retomada ao longo dos anos.
+
+Aplicação prática:
+- Auxilia no planejamento de estoques, campanhas sazonais e metas mensais.
+- Permite identificar tendências e prever períodos de maior ou menor volume de vendas.
+
+---
+
+Esses dois gráficos formam a base de uma análise exploratória de vendas e fornecem insights valiosos para tomada de decisão estratégica.
