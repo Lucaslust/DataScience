@@ -1,26 +1,28 @@
-# 📊 Repositório de Estudos em Ciência de Dados
+# Repositório de Estudos em Ciência de Dados
 
 Este repositório reúne estudos e análises práticas desenvolvidas com ferramentas de ciência de dados como Python, Pandas, Matplotlib, Seaborn, SQL, Power BI e outras.
 
-A ideia é centralizar aqui diferentes projetos de aprendizado como análises de datasets públicos, cases de limpeza de dados, visualizações e mais.
+A ideia é centralizar aqui diferentes projetos de aprendizado, como análises de datasets públicos, cases de limpeza de dados, visualizações e muito mais.
 
 ---
 
-## 🗂️ Projetos e Casos
+## Projetos e Casos
 
-| Projeto/Case        | Descrição                                                              |
-|---------------------|------------------------------------------------------------------------|
-| `vendas_case`        | Análise de vendas       
-| `limpeza_case`       | Dataset propositalmente sujo para treinar técnicas de limpeza         |
-| `analise_clientes`   | Segmentação de clientes e análise comportamental com Pandas + SQL     |
-| _Mais em breve..._   |                                                                      |
+| Projeto/Case        | Descrição                                                               |
+|---------------------|-------------------------------------------------------------------------|
+| `vendas_case`        | Análise de vendas com agrupamentos, visualizações e tendências         |
+| `limpeza_case`       | Dataset propositalmente sujo para treinar técnicas de limpeza          |
+| `analise_clientes`   | Segmentação de clientes e análise comportamental com Pandas e SQL      |
+| Em breve             | Novos estudos e desafios práticos                                      |
 
 ---
 
-## 🧰 Ferramentas utilizadas
+## Ferramentas utilizadas
+
 - Python
 - Pandas
-- Matplotlib & Seaborn
+- Matplotlib
+- Seaborn
 - Jupyter Notebooks
 - SQL
 - Power BI
@@ -28,5 +30,8 @@ A ideia é centralizar aqui diferentes projetos de aprendizado como análises de
 
 ---
 
-## 🚀 Como usar
+## Como usar
+
 1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/DataScience.git
